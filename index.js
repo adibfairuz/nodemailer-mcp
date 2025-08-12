@@ -24,7 +24,7 @@ const transporter = nodemailer.createTransport({
 });
 
 const server = new McpServer({
-	name: "email-sending-service",
+	name: "nodemailer-mcp",
 	version: "1.0.0",
 });
 
